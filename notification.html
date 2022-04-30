@@ -1,0 +1,86 @@
+ {/*первый вид уведомлении*/}
+            <div className={classes.notification}>
+                <div className={classes.container}>
+                    <div className={classes.title}>
+                        <h2>Notification</h2>
+                    </div>
+                    <div className={classes.content}>
+
+                        <div className={classes.notification_block}>
+                            <img src={avatar}/>
+                            <div className={classes.user_info}>
+                                <Link to={"/profile/"}>
+                                    <div className={classes.username}>me_tuerr</div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className={classes.info_note}>
+                            <p>Send you request</p>
+                        </div>
+                        <div className={classes.btn}>
+                            <i id={classes.decline} className='bx bxs-user-x decline' />
+                            <i id={classes.accept} className='bx bxs-user-check accept' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*2 уведомлении*/}
+            <div className={classes.notification}>
+                <div className={classes.container}>
+                    <div className={classes.content}>
+
+                        <div className={classes.notification_block}>
+                            <img src={avatar}/>
+                            <div className={classes.user_info}>
+                                <Link to={"/profile/"}>
+                                    <div className={classes.username}>me_tuerr</div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className={classes.info_note}>
+                            <p>Send you request</p>
+                        </div>
+                        <div className={classes.btn}>
+                            <i id={classes.decline} className='bx bxs-user-x decline' />
+                            <i id={classes.accept} className='bx bxs-user-check accept' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*окончание первого вида уведомлении*/}
+            {/*второй вид уведмлении*/}
+            <div className={classes.notification}>
+                <div className={classes.container}>
+                    <div className={classes.content}>
+                        <div className={classes.notification_block}>
+                            <img src={avatar}/>
+                            <div className={classes.user_info}>
+                                <Link to={"/profile/"}>
+                                    <div className={classes.username}>me_tuerr</div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className={classes.info_note}>
+                            <p id={classes.font} className={classes.post_like}>Liked your post</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*третьи вид уведмлении*/}
+            <div className={classes.notification}>
+                <div className={classes.container}>
+                    <div className={classes.content}>
+                        <div className={classes.notification_block}>
+                            <img src={avatar}/>
+                            <div className={classes.user_info}>
+                                <Link to={"/profile/"}>
+                                    <div className={classes.username}>me_tuerr</div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className={classes.info_note}>
+                            <p id={classes.font} className={classes.post_like}>Send you a message</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
